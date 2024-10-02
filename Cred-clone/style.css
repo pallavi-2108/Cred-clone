@@ -203,3 +203,57 @@ footer {
     align-items: center;
     justify-content: center;
 }
+
+@media (max-width: 326px) {
+    .section-1-main-1 {
+        font-size: 30px; /* Adjusted for smaller screens */
+        line-height: 40px;
+    }
+    .section-1-main-2 {
+        font-size: 14px;
+    }
+    .section-1-main-3 button {
+        padding: 10px 20px;
+        font-size: 16px;
+    }
+    .section-3 {
+        position: relative;
+        
+        background-image: url(https://web-images.credcdn.in/_next/assets/images/home-page/deserve-more-bg.jpg);
+        background-size: cover;
+        display: flex;
+        flex-direction: column;
+        -webkit-box-pack: justify;
+    }
+
+    .section-3-header-1 {
+        font-size: 30px;
+    }
+    .section-3-header-2 {
+        font-size: 16px;
+    }
+    .section-3-main-1 {
+        font-size: 12px;
+    }
+
+    .section-4-left-heading {
+        font-size: 28px;
+    }
+    .section-4-left-desc {
+        font-size: 12px;
+    }
+
+    .section-4-right-placeholder {
+        max-width: 150px; /* Adjust image size */
+        max-height: 240px;
+    }
+
+    footer {
+        font-size: 10px; /* Adjust footer font size */
+    }
+}
+@media (max-width: 326px) {
+    body {
+        background-color: #333; /* Change background color for testing */
+    }
+}
